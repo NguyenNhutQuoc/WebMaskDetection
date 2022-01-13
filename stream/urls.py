@@ -20,6 +20,6 @@ from webcam.views import index, video_feed
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index', index),
+    path('', index),
     path('video', video_feed)
 ]
